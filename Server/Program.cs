@@ -16,7 +16,7 @@ namespace Server
         static Listener _listener = new Listener();
 
         static void Main(string[] args)
-        {
+        {       
             // DNS
             string host = Dns.GetHostName();
             IPHostEntry ipHost = Dns.GetHostEntry(host);
